@@ -24,7 +24,7 @@ shinyUI(
                 selectInput("airlines", "Airlines:", 
                             choices=colnames(AirlineFares)),
                 hr(),
-                helpText("Data of airline fares from different airline companies.")
+                helpText("Data of airline fares from different airline companies. Play with choices of airline company to find out the time window and fare fit to your schedule and budget respectly.")
             ),
             
             # Create a spot for the barplot
