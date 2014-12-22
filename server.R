@@ -14,7 +14,7 @@ shinyServer(function(input, output) {
     output$phonePlot <- renderPlot({
         
         # Render a barplot
-        barplot(AirlineFares[,input$airlines]*1, 
+        barplot(AirlineFares[,input$airlines]*0.1, 
                 main=input$airlines,
                 ylab="Averaged Flight Fare per month (dollars)",
                 xlab="Month")
