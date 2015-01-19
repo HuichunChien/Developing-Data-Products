@@ -49,10 +49,5 @@ Instruction:
 
 
 ---
-br()
-br()
-br()
-br()
-br()
-br()
+
 ## Play around, and Enjoy your vacations!
